@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Content Filter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Content Filter</h1>
+    <div class="input-group">
+      <label for="keywordInput">Add Keyword:</label>
+      <input type="text" id="keywordInput" placeholder="Press 'Enter' to add">
+    </div>
+    <div class="table-container">
+      <table id="keywordsTable">
+        <thead>
+          <tr>
+            <th>Keyword</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <button id="addPoliticsKeywords">Add political words</button>
+    <div class="toggle-group">
+      <label for="filterToggle">Enable Filter:</label>
+      <input type="checkbox" id="filterToggle">
+    </div>
+    <div class="toggle-group">
+      <label for="adFilterToggle">Filter ads:</label>
+      <input type="checkbox" id="adFilterToggle">
+    </div>
+    <div class="toggle-group">
+      <label for="logToggle">Enable Console debug:</label>
+      <input type="checkbox" id="logToggle">
+    </div>
+    <button id="save">Save</button>
+  </div>
+  <script src="options.js"></script>
+</body>
+</html>
