@@ -4,9 +4,7 @@
     "version": "1.0",
     "description": "Filters out Reddit posts containing specific keywords.",
     "permissions": [
-      "storage",
-      "activeTab",
-      "scripting"
+      "storage"
     ],
     "action": {
       "default_popup": "options.html",
